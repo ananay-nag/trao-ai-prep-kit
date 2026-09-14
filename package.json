@@ -9,8 +9,11 @@
     "dev:backend": "npm run dev --prefix backend",
     "dev:frontend": "npm run dev --prefix frontend",
     "build": "npm run build --prefix backend && npm run build --prefix frontend",
+    "build:prod": "npm run build --prefix backend && npm run build:prod --prefix frontend",
     "start": "npm run start --prefix backend",
-    "start:prod": "npm run start:prod --prefix backend",
+    "start:backend": "npm run start:prod --prefix backend",
+    "start:frontend": "npm run start:prod --prefix frontend",
+    "start:prod": "concurrently \"npm run start:prod --prefix backend\" \"npm run start:prod --prefix frontend\"",
     "evaluate": "npm run evaluate --prefix backend --",
     "test": "npm run test --prefix backend",
     "install:all": "npm install && npm install --prefix backend && npm install --prefix frontend"
