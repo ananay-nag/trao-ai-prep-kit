@@ -1,0 +1,20 @@
+[
+  {
+    "id": "case-01",
+    "jd": "Senior Full-Stack Engineer\n\nAbout the role:\nWe are looking for a Senior Full-Stack Engineer with 5+ years of experience in React, TypeScript, and Node.js. You will lead the architecture of our real-time collaboration tools, build scalable microservices, and mentor junior developers. Experience with distributed caching (Redis) and PostgreSQL is required. Bonus points for AWS/Kubernetes experience and understanding of WebSockets.",
+    "company_url": "https://github.com",
+    "days": 5
+  },
+  {
+    "id": "case-02",
+    "jd": "Backend Developer\n\nRequirements:\nMust have 3+ years experience with Python and FastAPI or Django. Solid understanding of database indexing and SQL query optimization. Familiarity with Docker. Nice to have: GraphQL experience.",
+    "company_url": "https://stripe.com",
+    "days": 3
+  },
+  {
+    "id": "case-03",
+    "jd": "Junior Frontend Engineer.\nReact and CSS basics.",
+    "company_url": "https://nonexistent-company-404-domain-xyz.com",
+    "days": 1
+  }
+]
