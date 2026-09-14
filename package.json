@@ -1,0 +1,31 @@
+{
+  "name": "trao-ai-interview-prep-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI Interview Prep Kit - Full Stack Application & Batch Evaluation Pipeline",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "dev:prod": "concurrently \"npm run dev:prod --prefix backend\" \"npm run dev --prefix frontend\"",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix backend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend",
+    "start:prod": "npm run start:prod --prefix backend",
+    "evaluate": "npm run evaluate --prefix backend --",
+    "test": "npm run test --prefix backend",
+    "install:all": "npm install && npm install --prefix backend && npm install --prefix frontend"
+  },
+
+
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  },
+  "keywords": [
+    "interview-prep",
+    "ai",
+    "crawler",
+    "full-stack"
+  ],
+  "author": "",
+  "license": "ISC"
+}
